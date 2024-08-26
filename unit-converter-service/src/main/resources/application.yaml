@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: unit-converter-service
+
+server:
+  port: 8081
+  
+conversion:
+  facts:
+    - from: meter
+      to: feet
+      factor: 3.28
+    - from: feet
+      to: inch
+      factor: 12
+    - from: inch
+      to: centimeter
+      factor: 2.54
+    - from: hour
+      to: minute
+      factor: 60
+    - from: minute
+      to: second
+      factor: 60

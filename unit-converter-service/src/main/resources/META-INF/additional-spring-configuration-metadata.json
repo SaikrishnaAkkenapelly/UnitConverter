@@ -1,0 +1,5 @@
+{"properties": [{
+  "name": "conversion.facts",
+  "type": "java.util.List<com.unitconverter.pojo.ConversionFact>",
+  "description": "All the conversion facts that this application supports."
+}]}
