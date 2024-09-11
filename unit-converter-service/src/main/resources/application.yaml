@@ -24,6 +24,13 @@ conversion:
       to: second
       factor: 60
 
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - prometheus
 ---
 spring:
   config:
